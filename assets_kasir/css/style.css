@@ -1,0 +1,423 @@
+body {
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #000;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+div {
+	box-sizing:border-box;
+}
+.wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+	width: 250px;
+	margin: 100px auto;
+	border:0px solid #333;
+	overflow: hidden;
+	border-radius: 0px;
+		background: #f9b837;
+-webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.29);
+-moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.29);
+box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.29);
+}
+.head-login {
+	padding-bottom: 0px;
+
+}
+.head-login h2 {
+	color: #fff;
+	padding: 15px;
+	background: #333;
+	text-align: center;
+	text-transform: ;
+	border-bottom: 0px solid #ccc;
+	margin: 0;
+
+	
+}
+
+.form-login {
+	width: 100%;
+}
+.form-login .notif {
+	text-align: center;
+	background: ;
+	color: #f00;
+	font-style: italic;
+	display: block;
+	padding-top: 10px;
+}
+.form-login table {
+	width: 100%;
+}
+
+.form-login label {
+	border:0px solid#000;
+	padding: 0 10px 0 0;
+	display: block;
+	margin: 10px 0px 5px 0px;
+	text-align: center;
+}
+.form-login .input {
+	display: block;
+	width: 90%;
+	padding: 0 10px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 auto;
+	border-radius: 0px;
+
+}
+.form-login .submit{
+	display: block;
+	margin: 10px auto;
+}
+
+/* start Dashboard css
+* css...
+* Css...
+
+*/
+.dash {
+	width: 80%;
+	margin: 20px auto;
+	padding: 0; 
+	border: 0px solid #f00;
+	border-radius: 0px;
+}
+.header {
+	width: 100%;
+	background: #333;
+	box-sizing:border-box;
+	border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		overflow: hidden;
+	padding: 10px;	
+}
+.left-header {
+	width: 60%;
+	float: left;
+}
+.right-header {
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+	.header h1{
+		box-sizing:border-box;	font-weight: normal;color: #fff;padding: 10px 10px 0px 10px;
+		margin: 0;
+
+	}
+	.header p {	margin: 0; padding: 0;	padding-left: 10px;	font-size: 0.8em;	color: #eee;	font-weight: 0;
+	}
+	.header p a {
+		text-decoration: none;
+		color: #f00;
+	}
+	.right-header .user-a{
+
+		font-size: 1.2em;
+		text-transform:capitalize;
+		color: #78ff00;
+	}
+.content {
+	width: 100%;
+	height: ;
+	box-sizing:border;
+	
+	/*background:#f9b837; */
+
+}
+.content .navi {
+	float: left;
+	width: 20%;
+	border:0px solid #0f0;
+	overflow: hidden;
+	box-sizing:border;
+}
+.content .isi {
+	box-sizing:border;
+	float: left;
+	width: 80%;
+	border: 0px solid #0f0;
+	padding: 5px 0px 5px 5px;
+}
+/* End Dashboard css 
+* css ...
+*/
+
+
+/* Start Navigasi  css 
+* css ...
+*/
+
+.nav {
+	background: ;
+	padding: 0;
+	margin: 5px 5px 5px 0px;
+	
+}
+.ul-1 {
+	padding: 0;
+	margin: 0;
+	display: block;
+	border: 0px solid #ccc;
+
+}
+.li-1 {
+	list-style: none;
+	background: #fff;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	border:1px solid #333;
+	background: #333;
+	margin-bottom: 5px;
+	
+	
+}
+.a-1 {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding:10px ;
+	display: block;
+	background: #333;
+	margin-bottom: 5px;
+	color: #fff; 
+	text-decoration: none;
+}
+.a-1 img { width: }
+.ul-2 {
+	padding:10px;
+	background: #fff;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.li-2 {
+	list-style: none;
+	padding:5px 0px 10px 0px;
+	border-top: 1px solid #ccc;
+	
+}
+.a-2 {
+	text-decoration: none;
+	color: #333;
+}
+
+/* END Navigasi  css 
+* css ...
+*/
+
+
+
+/* 
+-----------------------------------------------------------------------------------------------------------------------------------------
+Start Isi, admin area  css 
+* css ...
+*/
+
+.admin-area {
+	width: 100%;
+	margin: 0;
+	background: #;
+	height: 300px;
+	border-radius: 0px;
+	border: 1px solid #333;
+}
+.admin-area h3, .dabar h3, .form_add h3 {
+	margin:0;
+	border:0px solid #fff;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: #333;
+	padding:10px;
+	color: #fff;
+	font-weight: normal;
+}
+.field-admin-area {
+	overflow: hidden;
+	padding: 10px;
+
+}
+.shortcut {
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	border: 1px solid #ccc;
+}
+.shortcut a {
+	text-decoration: none;
+	color: #333;
+	font-size: 0.8em;
+}
+.shortcut img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	
+	background: ;
+}
+.shortcut label{ text-align: center; display: block; padding-top: 0;
+}
+
+
+
+/* End admin isi area 
+* css ...
+*/
+
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------
+Start css Data Barang Area  
+* css ...
+*/
+.dabar {
+	border:1px solid #333;
+}
+.dabar-top {
+	border-bottom: 0px solid #f00;
+	margin: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+
+}
+.dabar .category {
+	width: 71%;
+	float: left;
+	height: 70px;
+	padding: 0px 0 0px 0px;
+}
+.dabar .search {
+	width: 25%;
+	float: right;
+	height: 70px;
+	padding: 0px 0 0px 0px;
+}
+.category label {
+	margin: 0px 10px 0px 5px;
+}
+
+.dabar-content {
+	padding: 10px;
+	border:0px solid #444;
+}
+.dabar-content .btn-act {
+	background: #333;
+	padding: 0px 10px 0px 5px;
+	line-height: 30px;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #fff;
+	border-radius: 2px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.btn-act-img {height: 20px;  padding: 3px 5px 0px 5px; display: inline-block;}
+.dabar-content table {
+	margin: 0px 1px;
+	border-collapse: collapse;
+	font-size: 0.9em;
+}
+.dabar-content span {
+	background: #ccc;
+	padding: 5px;
+	display: inline-block;
+	margin-right: 0;
+}
+.dabar-content span a {
+	font-weight:bolder;
+	font-style: italic;
+	
+}
+.dabar-content table th {
+	background: #333;
+	color:  #fff;
+	line-height: 30px;
+}
+.dabar-content table tr td { padding: 1px 5px; line-height: 20px; text-transform:;}
+.row_lighter {background: #eee;}
+.row_darker {background: #ccc;}
+.a-act {font-size: 0.75em; }
+
+
+
+
+
+/*End css Data Barang Area  
+* css ...
+*/
+
+
+
+
+/*Start form Add  
+* css ...
+*/
+
+.form_add {
+
+	border:1px solid #333;
+}
+.w_form {
+	border: 1px solid #ccc;
+	margin: 10px;
+	display: block;
+	padding:0; 
+	padding-top: 20px;
+}
+.w_form table {
+	margin: 0 50px 20px 10px;
+}
+.w_form table tr {
+
+}
+.w_form select {
+	height: 30px;
+}
+
+.input_s {
+	line-height: 25px;
+	width: 150px;
+	padding-left: 5px;
+	margin-top: 15px;
+}
+
+.input_w {
+	line-height: 25px;
+	width:250px;
+	padding-left: 5px;
+	margin-top: 15px;
+}
+.w_form table td {
+	padding: 0 10px;
+}
+.r_btm {
+	background: #ccc;
+	padding-left: 10px;
+}
+.submit{
+	background: #333;
+	border: none;
+	padding: 5px 10px;
+	margin:10px 5px 10px 10px;
+	color: #fff;
+	text-decoration: none;
+}
+.unsubmit {
+	background: #eee;
+	padding: 5px 10px;
+	margin: 10px 5px 10px 5px;
+	color: #333;
+	text-decoration: none;
+} 
+/*End form Add  
+* css ...
+*/

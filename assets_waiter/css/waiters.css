@@ -1,0 +1,160 @@
+.portlet.box.purple > .portlet-title{
+	background:#655a84;
+}
+
+.take-order .col-xs-6{
+	margin:0 0 10px;
+}
+
+.product-container{
+	box-shadow:0 2px 5px 2px rgba(0, 0, 0, 0.1);
+	padding:5px;
+}
+
+.take-order .product{
+	width:100%;
+	position:relative;
+	cursor:pointer;
+}
+
+.take-order .product-img{
+	width:100%;
+	position:relative;
+}
+
+.take-order .product-img{
+	display:block;
+	width:100%;
+}
+
+.product-img img{
+	width:100%;
+	max-height:200px;
+	filter:grayscale(30%);
+	-webkit-filter:grayscale(30%);
+}
+
+/* produk habis grasysale image */
+.product-ntfnd .product-img img{
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+}
+/* akhir produk habis */
+
+.product:hover .product-img img{
+	filter:grayscale(0%);
+	-webkit-filter:grayscale(0%);
+}
+
+.product-ntfnd:hover .product-img img{
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+}
+
+.product .prd-name{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	font-size:15px;
+}
+
+.take-order .qty .r{
+	padding:5px 1%;
+	border:1px solid #ccc;
+	outline:0;
+	margin:5px 0;
+	display:inline-block;
+	width:50%;
+	text-align:center;
+}
+
+.take-order .qty .fa{
+	text-align:center;
+	padding:10px 0 8px;
+	color:#fff;
+	width:25%;
+	cursor:pointer;
+}
+
+.take-order .qty .fa-plus{
+	background:#3598dc;
+}
+
+.take-order .qty .fa-minus{
+	background:#cb5a5e;
+}
+
+.take-order .btn-order{
+	width:100%;
+	margin-top:10px;
+	color:#fff;
+	background:#26a69a;
+}
+
+.take-order .product-price{
+	position:absolute;
+	right:0;
+	top:0;
+	border-radius:0 0 0 10px;
+	color:#fff;
+	font-size:12px;
+	font-weight:600;
+	background:#2c3e50;
+	padding:8px;
+}
+
+.product-ntfnd .product-price{
+	background:#393939;
+}
+
+.tab-content .portlet-title{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.tab-content .caption{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	width:100%;
+}
+
+
+@media (max-width:991px) {
+	.page-header .navbar-collapse.collapse{
+		display:block !important;
+	}
+}
+
+@media (max-width:480px) {
+	
+	.page-header .navbar .page-logo{
+		margin:0;
+		text-align:center;
+		float:none;
+	}
+	
+	.ta-content .caption{
+		font-size:15px !important;
+	}
+	
+	.actions .btn,.portlet-body .static-info .name,.portlet-body .static-info .value{
+		font-size:12px !important;
+	}
+	
+	.portlet-body .static-info .msg{
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+	}
+	
+	.take-order .prd-name{
+		font-size:14px;
+	}
+	
+	.take-order .product-price{
+		font-size:11px;
+		padding:5px;
+	}
+	
+}

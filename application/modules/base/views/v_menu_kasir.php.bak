@@ -1,0 +1,82 @@
+<style type="text/css">
+.c1 {
+	background: #ce0000;
+}
+
+.li_re {
+	position: relative;
+}
+
+.li_abs {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.li_abs a {
+	float: left;
+	background: #FFF;
+	width: 45%;
+	margin: 2%;
+	text-align: center;
+	color: #fff;
+	font-weight: bolder;
+	padding: 5px; box-sizing:border-box;
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+.listorder {
+ 
+}
+</style>
+
+
+
+<div class="right">
+	<h3>Waktu : <?php date_default_timezone_set("Asia/Jakarta"); $dt = new DateTime(); echo $dt->format('d-m-Y H:i:s'); ?> </h3>
+	<ul class="progresmenu">
+		<h4>Daftar Pesanan</h4>
+		<?php
+		if($is_open_audit){
+			foreach($showtable as $row){
+			?>
+
+				<?php 
+					if($row['status_pemesanan']==1){ $class="c1"; $state="PROGRESS";} 
+					if($row['status_pemesanan']==2){ $class="c2"; $state="SERVED";}
+					if($row['status_pemesanan']==3){ $class="c3"; $state="PENDING";}
+				?>
+
+				<a href="<?php echo site_url().'/kasir/c_transaksi/transaksi?id='.$row['id_pesanan']; ?>" target="checker" title="<?php echo $state; ?>">				
+				<li class="listorder">
+
+					
+						<div class="w_order <?php echo $class; ?>" style="padding: 5px 0 5px 2px;">
+								<div style="float: left; width: 99%;">
+								   <div class="<?php echo $class; ?>"><?php echo $row['kode_meja'];?></div>
+								</div>
+
+								<div style="float: left; width: 1%;">
+							  
+								</div>
+								<div style="clear: both; border-bottom: 1px dotted #FFF;"></div>
+								
+                                <h5><?php echo $row['nama_pemesan']; ?></h5>
+						<div>
+				</li>
+
+				</a>
+			<?php
+			}
+		}else{
+			echo '<h3 align="center">Anda Belum Membuka Audit</h3>';
+		}
+		?>	
+	</ul>
+	
+	
+
+</div>
